@@ -34,6 +34,7 @@ public class BookController {
 	public String addBook(Model model) {
 		Book book = new Book();
 		model.addAttribute("book", book);
+		System.out.println("book");
 		return "bookRegistration";
 	}
 
